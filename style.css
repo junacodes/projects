@@ -1,0 +1,155 @@
+* {
+    font-family:'Times New Roman', Times, serif;
+    padding: 0px;
+    margin: 0px;
+  }
+  nav {
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+    /* width: 100%; */
+  }
+  
+  .menu,
+  .tech,
+  .button {
+    display: inline-block;
+  }
+  
+  .menu {
+    float: left;
+    border: 2px solid #333;
+    position: relative;
+    border-radius: 20px;
+    padding: 5px;
+  }
+
+  span{
+      float: left;
+      font-size: 30px;
+      margin: 0px 5px;
+      border: 2px solid #333;
+      border-radius: 50%;
+      padding: 1px 5px;
+  
+  }
+  
+  .button {
+    float: right;
+  }
+  
+  .tech {
+    font-size: 25px;
+  }
+  
+  #signup {
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: none;
+    border: 1px solid #fff;
+    text-align: center;
+    cursor: pointer;
+  }
+  
+  #login {
+    padding: 11px 20px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    background-color: orangered;
+  }
+  
+  .main h2 {
+    font-size: 88px;
+  font-weight: bold;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+    
+    
+  }
+
+  .main img{
+    width: 200x;
+    height: 250px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    object-fit: cover;
+    object-position: top;
+    transition:.5s all ease;
+  }
+  .main #img1{
+    transform: translate(-50%, -50%) rotate(-40deg);
+  }
+  .main #img4{
+    transform: translate(-50%, -50%) rotate(-10deg);
+  }
+  .main #img2{
+    transform: translate(-50%, -50%) rotate(-30deg);
+    
+  }
+  .main #img3{
+    transform: translate(-50%, -50%) rotate(-20deg);
+
+
+  }
+
+  .main:hover #img1{
+    top: 13%;
+    left: 1%;
+    transform: translate(0%,0%) rotate(0deg)
+  }
+  .main:hover #img2{
+    top: 50%;
+    left: 1%;
+    transform: translate(0%,0%) rotate(0deg)
+  }
+  .main:hover #img4{
+    bottom: 0%;
+    left: 86%;
+    top: 64%;
+    transform: translate(0%,0%) rotate(0deg)
+
+  }
+ .main:hover #img3{
+  transform: translate(0%,0%) rotate(0deg);
+  top: 12%;
+  left: 86.8%;
+  }
+
+
+ 
+  #smile {
+    position: absolute;
+    bottom: 30px;
+    margin-left: 5%;
+  }
+  
+  #startup {
+    position: absolute;
+    bottom: 30px;
+    float: right;
+    margin-left: 87%;
+  }
+  .icon {
+    position: absolute;
+    bottom: 60px;
+    margin-left: 89%;
+    
+  }
+  
+  .instagram,
+  .facebook,
+  .youtube{
+      font-size: 25px;
+      text-decoration: none;
+      /* border: 1px solid #222; */
+      color: white;
+      background-color: orangered;
+      border-radius: 50%;
+     padding: 2px 7px;
+  
+  }
